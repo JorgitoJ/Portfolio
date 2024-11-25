@@ -17,7 +17,7 @@ const projects = [
     foto: food,
     skills:['React','Tailwind CSS'],
     coding:'https://github.com/JorgitoJ/Gourmet-Store',
-    demo:'gourmet-store.vercel.app'
+    demo:'https://gourmet-store.vercel.app'
   },
   {
     name:'Nike Store',
@@ -25,7 +25,7 @@ const projects = [
     foto: store,
     skills:['React','CSS'],
     coding:'https://github.com/JorgitoJ/Nike-s-Store',
-    demo:'nike-s-store.vercel.app'
+    demo:'https://nike-s-store.vercel.app'
   },
   {
     name:'Gif App',
@@ -33,7 +33,7 @@ const projects = [
     foto: gif,
     skills:['React','CSS'],
     coding:'https://github.com/JorgitoJ/react-Gif-Expert',
-    demo:'react-gif-expert-six.vercel.app'
+    demo:'https://react-gif-expert-six.vercel.app'
   },
   {
     name:'Covid System',
@@ -41,7 +41,7 @@ const projects = [
     foto: sistem,
     skills:['Django','Python','CSS'],
     coding:'https://github.com/JorgitoJ/Sistema-Gestor-de-Datos-Estad-sticos',
-    demo:'sistema-gestor-de-datos-estad-sticos.vercel.app'
+    demo:'https://sistema-gestor-de-datos-estad-sticos.vercel.app'
   },
   {
     name:'Chat PDF',
