@@ -1,5 +1,11 @@
 import React from 'react'
 
+import { RiBookMarkedLine,
+         RiClipboardLine,
+         RiFileUserLine,
+         RiAccountCircleLine } from "react-icons/ri";
+
+
 export const Header = () => {
   return (
     <header className='fixed left-0 right-0 top-0 z-50 bg-white/80 backdrop-blur-sm shadow-sm'>
@@ -9,10 +15,22 @@ export const Header = () => {
                     <a href="#hero">JorgitoDev</a>
                 </div>
                 <div className='flex items-center gap-3 md:gap-6 '>
-                    <a href="#skills" className='hover:text-purple-600 transition-colors'>Skills</a>
-                    <a href="#projects" className='hover:text-purple-600 transition-colors'>Projects</a>
-                    <a href="" className='hover:text-purple-600 transition-colors'>About</a>
-                    <a href="" className='hover:text-purple-600 transition-colors'>Contact</a>
+                    <a href="#skills" className='hover:text-purple-600 transition-colors'>
+                    <span className="md:hidden text-purple-600"><RiBookMarkedLine size={24}/></span>
+                    <span className="hidden sm:inline  hover:text-purple-600 transition-colors">Habilidades</span>
+                    </a>
+                    <a href="#projects" className='hover:text-purple-600 transition-colors'>
+                    <span className="md:hidden text-purple-600"><RiClipboardLine size={24}/></span>
+                    <span className="hidden sm:inline  hover:text-purple-600 transition-colors">Proyectos</span>
+                    </a>
+                    <a href="#about" className='hover:text-purple-600 transition-colors'>
+                    <span className="md:hidden text-purple-600"><RiFileUserLine  size={24}/></span>
+                    <span className="hidden sm:inline  hover:text-purple-600 transition-colors">Acerca de mi</span>
+                    </a>
+                    <a href="#contact" className='hover:text-purple-600 transition-colors'>
+                    <span className="md:hidden  text-purple-600"><RiAccountCircleLine  size={24}/></span>
+                    <span className="hidden sm:inline  hover:text-purple-600 transition-colors">Contacto</span>
+                    </a>
                 </div>
             </div>
         </nav>

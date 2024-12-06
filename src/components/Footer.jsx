@@ -15,10 +15,10 @@ export const Footer = () => {
                     </span>
                 </div>
                 <div className='flex items-center gap-6 mb-4 md:mb-0'>
-                    <a href="#skills" className='hover:text-purple-600 transition-colors'>Skills</a>
-                    <a href="#projects" className='hover:text-purple-600 transition-colors'>Projects</a>
-                    <a href="" className='hover:text-purple-600 transition-colors'>About</a>
-                    <a href="" className='hover:text-purple-600 transition-colors'>Contact</a>
+                    <a href="#skills" className='hover:text-purple-600 transition-colors'>Habilidades</a>
+                    <a href="#projects" className='hover:text-purple-600 transition-colors'>Proyectos</a>
+                    <a href="#about" className='hover:text-purple-600 transition-colors'>Acerca</a>
+                    <a href="#contact" className='hover:text-purple-600 transition-colors'>Contactos</a>
                 </div>
                 <div className='flex items-center gap-4'>
                     <a href="https://github.com/JorgitoJ" className='hover:text-purple-600 transition-colors'><RiGithubLine size={20}/></a>
