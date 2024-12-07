@@ -8,7 +8,7 @@ import { RiGithubLine,
 
 export const Hero = () => {
   return (
-        <section id='hero' className='min-h-screen flex items-center justify-center bg-gradient-to-b from-white to-gray-50'>
+        <section id='hero' className='min-h-screen flex items-center justify-center bg-gradient-to-b from-white to-gray-50 lg:mt-5 mt-20 '>
             <div className='container mx-auto px-6 '>
                 <div className='flex flex-col lg:flex-row items-center gap-12'>
                     <div className='flex-1 text-center lg:text-left'>
